@@ -34,7 +34,7 @@ div{
 	border-radius: 35px;
 	border: 5px solid #006633;
 	width: 1450px;
-	margin: auto;
+	margin: auto:
 }
 
 h1{
@@ -47,7 +47,7 @@ h1{
 	margin: 0px 250px 0px;
     padding-top: 10px;
     padding-bottom: 15px;
-    word-break: break-word;
+    width: 900px;
 }
 
 h2{
@@ -251,4 +251,5 @@ h1 span.nihongo {
 
 a.special-link {
 	color: #000000;
+	text-decoration-style: 
 }
