@@ -85,7 +85,7 @@ h1 span.nihongo {
 }
 
 /* text styles */
-blockquote{	
+blockquote, figure{	
 	font-size: 13px;
 	text-align: center;
 	color: #bcbcbb;
@@ -266,13 +266,6 @@ img.leave-alone{
 	border-radius: 50%;
 	width: 150px;
 }
-.bottomleft{
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-  font-size: 15px;
-}
-
 audio{
   position: fixed;
   object-fit: contain;
