@@ -8,35 +8,42 @@ body{
 	text-align: center;
 	margin: auto;
 }
-
+/* header elements */
 header {
 	text-align: center;
 }
-
 header img {
 	width: 100%;
 	margin: 0 auto;
 }
 
+/* main elements*/
 main{
 	max-width: 1450px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 main img{
 	max-width: 100%;
 	max-height: 100%;
+	text-align: center;
 }
 
-
+/* div styles */
 div{
 	background-color: #252525;
 	border-radius: 35px;
 	border: 5px solid #006633;
 	width: 1450px;
-	margin: auto:
+	margin: auto;
+}
+div img{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
 }
 
+/* heading styles */
 h1{
 	color: #000000;
 	font-size: 55px; 
@@ -49,21 +56,31 @@ h1{
     padding-bottom: 15px;
     width: 900px;
 }
-
-h2{
+div h1{
+	max-width: 1450px;
+}
+h2, h3{
 	font-size: 25px;
 	font-weight: 750;
 	text-align: center;
 	color: #ff6600;
 }
-
-h3 {
+h4, h5, h6{
 	font-size: 23px;
 	font-weight: 750;
 	text-align: center;
 	color: #ff6600;
 }
+h1 span.nihongo {
+	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;  
+	font-weight: 800;
+	font-size: 55px;
+	letter-spacing: -1px;
+	color: #000000;
 
+}
+
+/* text styles */
 blockquote{	
 	font-size: 13px;
 	text-align: center;
@@ -71,7 +88,6 @@ blockquote{
 	margin: 5px;
 	text-transform: none;
 }
-
 p{
 	font-size: 20px; 
 	font-weight: 400;
@@ -81,7 +97,26 @@ p{
 	margin: 25px;
 	color: #ffffff
 }
+.flourish {
+	color: #ff6600;
+	font-size: 23px;
+	text-indent: 0px;
+	text-align: center;
+}
+p.centralized {
+	text-indent: 0px;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 0px;
+}
 
+.nihongo {
+	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+	color: inherit;
+}
+/* list styles */
 ol{
 	list-style-type: upper-roman;
 	font-weight: 400;
@@ -93,21 +128,16 @@ ol{
 ol img{
 	float: left;
 	margin-right: 25px;
-
 }
-
 ol li{
 	text-align: left;
 	margin: 25px 50px 10px 100px;
 }
-
 ol dd {
 	text-align-last: left;
 	text-indent: 55px;
 	margin-right: 50px;
-
 }
-
 ul{
 	display: inline-block;
 	text-align: left;
@@ -117,24 +147,19 @@ ul{
 	word-break: keep-all;
 	color: #ffffff
 }
-
 ul img{
 	margin: 0px 100px 25px 25px;
 }
-
 ul li{
 	margin: auto;
     padding: 20px 100px 15px 100px;
 }
-
 ul li:before { content: '\00BB'; margin-left: -20px; margin-right: 10px; color: #ff6600} 
-
 li{
 	font-size: 20px; 
 	word-break: keep-all;
 	color: #ffffff
 }
-
 dd{
 	font-size: 15px; 
 	word-break: keep-all;
@@ -142,23 +167,25 @@ dd{
 	color: #bcbcbb
 }
 
+
+/* link styles */
 a {
 	color: #ff6600;
 	word-break: keep-all;
 }
-
-/* unvisited and unvisited links */
 a:link, a:visited {
 	color: #ff6600;
 }
-
-/* mouse over and active links */
 a:hover,a:active{
 	color: #ff9900;
 	text-decoration: none;
 }
+a.special-link {
+	color: #000000;
+	text-decoration-style: 
+}
 
-
+/* footer elements */
 footer{
 	background-color: #006633;
 	text-align: center;
@@ -167,7 +194,6 @@ footer{
 	bottom: 0;
 	width: 100%;
 }
-
 footer p{
 	color: #000000;
 	font-size: 15px;
@@ -176,25 +202,26 @@ footer p{
 	padding: 50px 0 25px 0;
 }
 
+/* general elements */
+.container {
+	position: relative;
+	background-color: transparent;
+	border: none;
+	text-align: initial;
+}
 .centralized {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
 }
-
-.flourish {
-	color: #ff6600;
-	font-size: 23px;
-	text-indent: 0px;
-	text-align: center;
-}
-
 .clean {
 	word-break: keep-all;
 	text-align: left;
 }
 
+
+/* column elements */
 .column {
 	box-sizing: border-box;
 	float: left;
@@ -204,52 +231,41 @@ footer p{
 	background-color: transparent;
 	border: none;
 }
-
 .row:after {
 content: "";
 display: table;
 clear: both;
+text-align: center;
 }
-
 .profile {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 0px;
 }
-
 .row{
 	background-color: transparent;
 	border: none;
-}
-
-p.centralized {
-	text-indent: 0px;
-	font-size: 15px;
 	text-align: center;
-	margin-top: 0px;
 }
 
+
+/* media elements */
 img.centralized {
 	display: block;
 }
 
-h1 span.nihongo {
-	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;  
-	font-weight: 800;
-	font-size: 55px;
-	letter-spacing: -1px;
-	color: #000000;
 
+img.leave-alone{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: right;
+	margin: 0 auto;
+    padding: 0px 100px 25px 50px;
 }
 
-.nihongo {
-	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
-	font-weight: 400;
-	letter-spacing: -1px;
-	color: inherit;
-}
-
-a.special-link {
-	color: #000000;
-	text-decoration-style: 
+.bottomleft{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  font-size: 15px;
 }
