@@ -1,6 +1,6 @@
 body{
 	color: #ff6600;
-	font-family: Reggae One, 'Noto Sans JP', "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
+	font-family: Reggae One, Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
 	background-color: #000000;
 	word-spacing: 2.5px;
 	letter-spacing: -1px;
@@ -71,6 +71,7 @@ blockquote{
 	text-align: center;
 	color: #bcbcbb;
 	margin: 5px;
+	text-transform: none;
 }
 
 p{
@@ -78,7 +79,8 @@ p{
 	font-weight: 400;
 	word-break: keep-all;
 	text-align: left;
-	text-indent: 55px; 
+	text-indent: 55px;
+	margin: 25px;
 	color: #ffffff
 }
 
@@ -98,11 +100,13 @@ ol img{
 
 ol li{
 	text-align: left;
+	margin: 25px 50px 10px 100px;
 }
 
 ol dd {
 	text-align-last: left;
-	text-indent: 55px; 
+	text-indent: 55px;
+	margin-right: 50px;
 
 }
 
@@ -117,15 +121,12 @@ ul{
 }
 
 ul img{
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0px 150px 0 10px;
-	object-fit: contain;
+	margin: 0px 100px 0px 25px;
 }
 
 ul li{
-    margin-right: 675px;
-    padding: 25px 0 0 0;
+	margin: auto;
+    padding: 20px 100px 15px 100px;
 }
 
 ul li:before { content: '\00BB'; margin-left: -20px; margin-right: 10px; color: #ff6600} 
@@ -200,8 +201,9 @@ footer p{
 .column {
 	box-sizing: border-box;
 	float: left;
-	width: 25%;
-	padding: 10px;
+	width: 245px;
+    height: 410px;
+    padding: 0;
 	background-color: transparent;
 	border: none;
 }
@@ -218,6 +220,11 @@ clear: both;
 	padding: 0px;
 }
 
+.row{
+	background-color: transparent;
+	border: none;
+}
+
 p.centralized {
 	text-indent: 0px;
 	font-size: 15px;
@@ -227,4 +234,20 @@ p.centralized {
 
 img.centralized {
 	display: block;
+}
+
+h1 span.nihongo {
+	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;  
+	font-weight: 800;
+	font-size: 55px;
+	letter-spacing: -1px;
+	color: #000000;
+
+}
+
+.nihongo {
+	font-family: Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
+	font-weight: 400;
+	letter-spacing: -1px;
+	color: inherit;
 }
