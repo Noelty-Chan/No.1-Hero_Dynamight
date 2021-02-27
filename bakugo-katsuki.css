@@ -17,6 +17,10 @@ header img {
 	margin: 0 auto;
 }
 
+header audio {
+	background-color: #006633;
+}
+
 /* main elements*/
 main{
 	max-width: 1450px;
@@ -267,4 +271,11 @@ img.leave-alone{
   bottom: 10px;
   left: 20px;
   font-size: 15px;
+}
+
+audio{
+  position: fixed;
+  object-fit: contain;
+  max-height: 25px;
+  width: 100%
 }
