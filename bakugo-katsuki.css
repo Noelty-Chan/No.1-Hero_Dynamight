@@ -1,13 +1,12 @@
 body{
 	color: #ff6600;
 	font-family: Reggae One, Noto Sans JP, "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Sans Serif;
-	font-size: relative;
 	background-color: #000000;
 	word-spacing: 2.5px;
 	letter-spacing: -1px;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto;
 }
 
 header {
@@ -29,9 +28,6 @@ main img{
 	max-height: 100%;
 }
 
-body div {
-object-position: contain;
-}
 
 div{
 	background-color: #252525;
@@ -165,9 +161,11 @@ a:hover,a:active{
 
 footer{
 	background-color: #006633;
+	text-align: center;
 	position: relative;
+	left: 0;
+	bottom: 0;
 	width: 100%;
-	float: 
 }
 
 footer p{
@@ -176,11 +174,13 @@ footer p{
 	margin: 0;
 	text-align: center;
 	padding: 50px 0 25px 0;
+}
 
 .centralized {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	width: 75%;
 }
 
 .flourish {
