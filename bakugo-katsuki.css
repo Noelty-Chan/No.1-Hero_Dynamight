@@ -11,19 +11,16 @@ body{
 /* header elements */
 header{
 	text-align: center;
+
 }
 header img{
 	width: 100%;
 	margin: 0 auto;
 }
 
-header audio{
-	background-color: #006633;
-}
-
 /* main elements*/
 main{
-	max-width: 1450px;
+	max-width: 2250px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -134,12 +131,12 @@ ol img{
 }
 ol li{
 	text-align: left;
-	margin: 25px 50px 10px 100px;
+	margin: 0px 50px 0px 100px;
 }
 ol dd{
 	text-align-last: left;
 	text-indent: 55px;
-	margin-right: 50px;
+	margin: 0px 50px 0px 325px;
 }
 ol figure{
 	display: inline-block;
@@ -207,7 +204,7 @@ a.special-link:hover{
 
 /* footer elements */
 footer{
-	background-color: #006633;
+	background-color: #ff6600;
 	text-align: center;
 	position: relative;
 	left: 0;
@@ -283,10 +280,9 @@ img.leave-alone{
 	width: 150px;
 }
 audio{
-  position: fixed;
-  object-fit: contain;
-  max-height: 25px;
-  width: 100%
+	position: fixed;
+	top: 0;
+	max-height: 25px;
 }
 
 figure{
